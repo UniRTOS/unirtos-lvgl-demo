@@ -1,4 +1,4 @@
-# unirtos-lvgl-demo
+# unirtos-lvgl-demos
 
 [中文](README.zh.md) | English
 
@@ -61,19 +61,19 @@ unirtos-cli ls-demos
 Create this demo project:
 
 ```bash
-unirtos-cli new -r unirtos-lvgl-demo
+unirtos-cli new -r unirtos-lvgl-demos
 ```
 
 To specify a version:
 
 ```bash
-unirtos-cli new -r unirtos-lvgl-demo -v 1.0.0
+unirtos-cli new -r unirtos-lvgl-demos -v 1.0.0
 ```
 
 ### 3. Enter the Project and Build
 
 ```bash
-cd unirtos-lvgl-demo-1.0.0
+cd unirtos-lvgl-demos-1.0.0
 unirtos-cli env-setup
 unirtos-cli build
 ```

@@ -1,4 +1,4 @@
-# unirtos-lvgl-demo
+# unirtos-lvgl-demos
 
 [English](README.md) | 中文
 
@@ -53,19 +53,19 @@ unirtos-cli ls-demos
 创建本 demo 工程：
 
 ```bash
-unirtos-cli new -r unirtos-lvgl-demo
+unirtos-cli new -r unirtos-lvgl-demos
 ```
 
 如需指定版本：
 
 ```bash
-unirtos-cli new -r unirtos-lvgl-demo -v 1.0.0
+unirtos-cli new -r unirtos-lvgl-demos -v 1.0.0
 ```
 
 ### 3. 进入工程并编译
 
 ```bash
-cd unirtos-lvgl-demo-1.0.0
+cd unirtos-lvgl-demos-1.0.0
 unirtos-cli env-setup
 unirtos-cli build
 ```
